@@ -1,0 +1,89 @@
+*{
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+body:not(.menu){
+    background-image: url(./bonobono.jpg);
+}
+
+ul>li{
+    list-style: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    font-size: 20px;
+}
+
+.menu>ul{
+    display: flex;
+}
+
+.menu>ul>li{
+    margin-left: 20px;
+    margin-right:20px
+}
+
+.menu>ul>li>ul{
+    position: absolute;
+    display:none;
+    padding-left: 0;
+}
+
+.menu>ul>li:hover>ul{
+    display:block;
+}
+
+.current {
+    border-bottom: 3px solid whitesmoke;
+}
+
+a:link{text-decoration: none; color:black;}
+a:visited{text-decoration: none; color:black;}
+a:hover{text-decoration: none; color:rgb(255, 255, 255);}
+a:active{text-decoration: none; color: rgb(255, 255, 255);}
+
+.profile {
+    background-color: rgb(255, 255, 255);
+    border-top: 7px solid black;
+    border-bottom: 7px solid black;
+    border-radius: 3px;
+    margin: auto;
+    max-width: 800px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.profile-image {
+    width: 160px;
+    height: 190px;
+    border-radius: 75px;
+    margin-top: -100px;
+}
+
+.me{
+    border-radius: 50px;
+}
+
+figure{
+    display: inline-block;
+    justify-content: space-between;
+    margin: 20px 20px;
+}
+
+hr{
+    color: #7c7c7c;
+    margin: 30 30px;
+}
+
+.text{
+    color: rgb(117, 113, 113);
+}
